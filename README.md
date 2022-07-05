@@ -2,7 +2,7 @@
 This repo contains the survey & demo for the paper HTMOT : Hierarchical Topic Modelling Over Time
 
 # DEMO
-Here is the link to the demo https://www.hec.uliege.be/static/demo/JS.html
+A demo is available in the demo folder
 
 You can double click on a topic to see its sub-topics. 
 Only topics with dotted border have sub-topics.
