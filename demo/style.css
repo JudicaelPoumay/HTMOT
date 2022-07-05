@@ -1,0 +1,131 @@
+.google-visualization-orgchart-table * {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.google-visualization-orgchart-node
+{
+	vertical-align:top !important;
+    text-align :center;
+}
+
+.google-visualization-orgchart-node-small 
+{
+	font-size: 0.8em !important;
+    text-align :center;
+}
+
+.changeIcon
+{
+    height : 0.65em;
+}
+
+.docs, .terms
+{
+	display : none; 
+}
+
+#menu
+{
+	position:fixed;
+	right:10;
+	top:10;
+	z-index :10;
+	background-color : white;
+	-webkit-box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.49); 
+	box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.49);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding : 10px;
+}
+#expandView
+{
+	position: absolute;
+	right: -15;
+	top: 100;
+	height: 100;
+	width: 30;
+}
+
+#view .topiclist
+{
+	padding-left : 15px;
+}
+
+.docscroll
+{
+    height: 170px;
+    overflow-y: scroll;	
+}
+
+.nolink
+{
+    background-color: red;
+    border: solid 1px;	
+}
+ul {
+    list-style-type: none;
+	padding: 0;
+}
+#view .terms, #view  .docs
+{
+	display : block;
+}
+.chart
+{
+	position : relative;
+	top : 200px;
+    display: inline-block;
+}
+#view
+{
+	display : inline-block;
+	position : fixed;
+	top : 0;
+	left : 0;
+	background-color : lightgray;
+	z-index : 5;
+	font-size: 1.2em;
+	-webkit-box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.49); 
+	box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.49);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.chartContainer
+{
+    
+}
+
+#view .terms, #view .docs, #view .words, .chartContainer
+{
+	display : table-cell;
+}
+
+#view .topic
+{
+	border : none !important;
+    width : auto;
+}
+
+.topic
+{
+	vertical-align : top;
+    width : 95px;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  transition: max-height 0.2s ease-out;
+}
+
+div{
+	vertical-align : top;
+}
+
+td{
+	vertical-align : top
+}
